@@ -1,0 +1,21 @@
+.cells {
+    height: 2vh;
+    width: 2vh;
+    background-color: #9FBBCC;
+    margin: 2px;
+}
+
+#container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
