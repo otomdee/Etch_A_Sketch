@@ -3,19 +3,19 @@
     width: 2vh;
     background-color: #9FBBCC;
     margin: 2px;
+    border-radius: 4px;
 }
 
 #container {
     max-width: 900px;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
 }
 
 body {
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -28,4 +28,8 @@ body {
 
 .active {
     background-color: #F15946;
+}
+
+#topButton {
+    padding: 20px;
 }
