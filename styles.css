@@ -8,7 +8,7 @@
 #container {
     max-width: 900px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: 2px solid black;
 }
 
@@ -18,4 +18,10 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.cellrow {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
 }
