@@ -11,7 +11,15 @@ function generateGrid() {
             cell.classList.add("cells");
             //add cell interactivity
             cell.addEventListener("mouseover", () => {
-                cell.classList.add("active");
+                if (cell.classList.contains("active")) {
+                    let opacity = parseFloat(cell.style.opacity);
+                    opacity += 0.1;
+                    cell.style.opacity = `${opacity}`;
+                }
+                else {
+                    cell.classList.add("active");
+                    cell.style.opacity = "0.1";
+                }
             })
             cellrow.append(cell);
         }
@@ -20,7 +28,7 @@ function generateGrid() {
 }
 
 generateGrid();
-console.log(gridsize);
+
 
 //prompt user for new grid when button is clicked
 document.querySelector("#newgrid").addEventListener("click", () => {

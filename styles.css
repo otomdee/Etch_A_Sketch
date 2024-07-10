@@ -1,18 +1,20 @@
 .cells {
     height: 2vh;
     width: 2vh;
-    background-color: #9FBBCC;
+    background-color: #EEF1EF;
     margin: 2px;
     border-radius: 4px;
 }
 
 #container {
+    max-height: 900px;
     max-width: 900px;
     display: flex;
     flex-direction: column;
 }
 
 body {
+    background-color: #A9B4C2;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,9 +29,14 @@ body {
 }
 
 .active {
-    background-color: #F15946;
+    background-color: #1C2321;
 }
 
 #topButton {
     padding: 20px;
+}
+
+#newgrid {
+    padding: 4px;
+    border-radius: 8px;
 }
