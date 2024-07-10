@@ -25,3 +25,7 @@ body {
     width: 100%;
     flex-direction: row;
 }
+
+.active {
+    background-color: #F15946;
+}
