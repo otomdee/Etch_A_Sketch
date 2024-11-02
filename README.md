@@ -1,2 +1,2 @@
-Etch-a-Sketch, built with Html, css and JS.
-Live at <a href="https://otomdee.github.io/0din_Project-EAS/">Etch A Sketch</a>
+Simple Etch-a-Sketch board, built JS.
+Live at <a href="https://otomdee.github.io/Etch_A_Sketch">Etch A Sketch</a>
